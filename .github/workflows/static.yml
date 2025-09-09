@@ -1,5 +1,4 @@
 name: Deploy static site to Pages
-
 on:
   push:
     branches: [ "main" ]
@@ -26,7 +25,7 @@ jobs:
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build   # <-- your webpack output
+          path: ./build
 
   deploy:
     needs: build
