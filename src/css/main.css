@@ -1,1 +1,22 @@
 /* Your CSS here. */
+/* Your CSS here. */
+body {
+    background: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    background: #f0f0f0;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  
